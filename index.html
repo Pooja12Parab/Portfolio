@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Dark-themed portfolio for Pooja Parab, MERN Stack Developer crafting scalable web apps with React, Node, Express, and MongoDB."
+    />
+    <title>Pooja Parab · MERN Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Clash+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="hero" id="home">
+      <nav class="nav" aria-label="Main">
+        <!-- <a href="#home" class="logo" aria-label="Pooja Parab logo">PoojaParab</a> -->
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          <span class="theme-toggle__icon" aria-hidden="true"></span>
+          <span class="theme-toggle__text">Dark</span>
+        </button>
+        <a class="pill-btn" href="mailto:pgparab1290@gmail.com">Say Hello</a>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy" data-reveal>
+          <p class="badge">MERN Stack Developer</p>
+          <h1>Hi, I’m Pooja Parab</h1>
+          <p class="lead">
+            I build scalable web apps with React, Node, Express, and MongoDB—balancing performance, accessibility, and secure data flows.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View My Projects</a>
+            <a class="btn outline" href="#contact">Contact Me</a>
+          </div>
+          <ul class="hero-meta">
+            <li>
+              <span>Location</span>
+              <strong>Kondapur, Hyderabad</strong>
+            </li>
+            <li>
+              <span>Email</span>
+              <strong>pgparab1290@gmail.com</strong>
+            </li>
+            <li>
+              <span>Phone</span>
+              <strong>+91 87932 89686</strong>
+            </li>
+            <li>
+              <span>Social</span>
+              <strong>
+                <a href="https://www.linkedin.com/in/poojagparab" target="_blank" rel="noreferrer">LinkedIn</a> ·
+                <a href="https://github.com/Pooja12Parab" target="_blank" rel="noreferrer">GitHub</a>
+              </strong>
+            </li>
+          </ul>
+        </section>
+        <section class="hero-avatar" data-reveal>
+          <div class="avatar-ring">
+            <div class="avatar">
+              <img src="assets/media/pooja-avatar.avif" alt="Portrait of Pooja Parab" loading="lazy" />
+            </div>
+            <span class="status-pill">Open to Work</span>
+          </div>
+          <!-- <div class="hero-card">
+            <p>Building with</p>
+            <ul>
+              <li>React.js · Tailwind</li>
+              <li>Node.js · Express</li>
+              <li>MongoDB · JWT Auth</li>
+            </ul>
+          </div> -->
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel about" id="about" data-reveal>
+        <div class="section-head">
+          <h2>About Me</h2>
+          <p>Hands-on MERN developer crafting secure APIs and immersive dashboards with measurable impact.</p>
+        </div>
+        <p>
+          From JWT-secured microservices to Chart.js insights, I focus on translating product goals into reliable, user-loved experiences. I
+          collaborate across agile squads, document endpoints in Postman, and ship polished UI systems with performance budgets.
+        </p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://drive.google.com/file/d/1L_uZvXe42XAhX6Bz-X-jnFGA3ZCRw6sL/view?usp=drive_link" target="_blank" rel="noreferrer">Download Resume</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/poojagparab" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+
+      <section class="panel skills" id="skills" data-reveal>
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Stacks, tools, and libraries I lean on every day.</p>
+        </div>
+        <div class="skills-grid" role="list">
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/JavaScript-Logo.png" alt="JavaScript logo" loading="lazy" />
+            </div>
+            <span class="skill-label">JavaScript ES6+</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/react-logo.png" alt="React logo" loading="lazy" />
+            </div>
+            <span class="skill-label">React & Hooks</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/nodejs-logo.png" alt="Node.js logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Node.js</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/expressjs-logo.png" alt="Express.js logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Express.js</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/mongodb-logo.webp" alt="MongoDB logo" loading="lazy" />
+            </div>
+            <span class="skill-label">MongoDB</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/html5.png" alt="HTML5 logo" loading="lazy" />
+            </div>
+            <span class="skill-label">HTML5</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/css-Logo.png" alt="CSS3 logo" loading="lazy" />
+            </div>
+            <span class="skill-label">CSS3</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/logo-mysql.png" alt="MySQL logo" loading="lazy" />
+            </div>
+            <span class="skill-label">MySQL</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/Chart.js_logo.png" alt="Chart.js logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Chart.js</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/jwt-json-web-logo.webp" alt="JWT logo" loading="lazy" />
+            </div>
+            <span class="skill-label">JWT / Auth</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/mui-material-logo.webp" alt="Material UI logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Material UI</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/Tailwind_CSS_Logo.png" alt="Tailwind CSS logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Tailwind CSS</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/postman-logo.webp" alt="Postman logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Postman</span>
+          </div>
+          <div class="skill-tile" role="listitem">
+            <div class="skill-badge">
+              <img src="assets/logos/GitHub-logo.png" alt="GitHub logo" loading="lazy" />
+            </div>
+            <span class="skill-label">Git & GitHub</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel experience" id="experience" data-reveal>
+        <div class="section-head">
+          <h2>Experience</h2>
+          <p>Internship milestone blending healthcare, analytics, and e-commerce builds.</p>
+        </div>
+        <article class="exp-card">
+          <header>
+            <div>
+              <p class="eyebrow">Mar 2025 – Aug 2025 · Mumbai</p>
+              <h3>MERN Stack Developer Intern · TryCatch Classes</h3>
+            </div>
+            <span class="badge ghost">Internship</span>
+          </header>
+          <ul>
+            <li>Developed full-stack web apps using React, Node, Express, MongoDB.</li>
+            <li>Delivered responsive UIs for Hospital Management, Data Viz Dashboard, and an e-commerce client build.</li>
+            <li>Implemented JWT auth, Multer uploads, and Bcrypt-secured flows with Postman-tested APIs.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel projects" id="projects" data-reveal>
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Case studies that spotlight problem solving across domains.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-icon medical"></div>
+            <h3>Hospital Management System</h3>
+            <p>Full-stack control center for doctors, departments, and appointment flows with JWT-secured admin tools.</p>
+            <ul>
+              <li>Real-time availability dashboards</li>
+              <li>Role-based CRUD for patient records</li>
+            </ul>
+            <a class="btn primary" href="https://github.com/Pooja12Parab/Hospital-Manegement-System" target="_blank" rel="noreferrer">View Project</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon data"></div>
+            <h3>Data Visualization Dashboard</h3>
+            <p>React + Chart.js dashboard delivering live KPIs with MongoDB aggregation pipelines.</p>
+            <ul>
+              <li>Modular chart renderer</li>
+              <li>Filterable insight panels</li>
+            </ul>
+            <a class="btn primary" href="https://github.com/Pooja12Parab/Data-Visualization-Dashboard" target="_blank" rel="noreferrer">View Project</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon finance"></div>
+            <h3>EMI Calculator</h3>
+            <p>Responsive calculator with instant EMI breakdowns, Chart.js visuals, and validation guardrails.</p>
+            <ul>
+              <li>React Hooks for form state</li>
+              <li>Loan comparison charts</li>
+            </ul>
+            <a class="btn primary" href="https://github.com/Pooja12Parab/EMI-CALCULATOR" target="_blank" rel="noreferrer">View Project</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon notebook"></div>
+            <h3>Notes App</h3>
+            <p>
+              Full-stack note platform with secure auth, Tailwind-powered UI, and CRUD flows built on React, Node, Express, and MongoDB.
+            </p>
+            <ul>
+              <li>JWT sessions with protected routes</li>
+              <li>Responsive dashboard for creating, editing, deleting notes</li>
+            </ul>
+            <a class="btn primary" href="https://github.com/Pooja12Parab/Notes_App" target="_blank" rel="noreferrer">View Project</a>
+          </article>
+          <article class="project-card">
+            <div class="project-icon portal"></div>
+            <h3>User Portal</h3>
+            <p>
+              React + Vite experience where users register, sign in, and manage profile details with localStorage-backed persistence.
+            </p>
+            <ul>
+              <li>Profile cards featuring avatar, email, and bio</li>
+              <li>Fully responsive layouts for desktop and mobile</li>
+            </ul>
+            <a class="btn primary" href="https://github.com/Pooja12Parab/Userportal" target="_blank" rel="noreferrer">View Project</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel contact" id="contact" data-reveal>
+        <div class="section-head">
+          <h2>Let’s Build Something</h2>
+          <p>Available for MERN stack roles, freelance, or collaborations.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:pgparab1290@gmail.com">
+            <span>Email</span>
+            <strong>pgparab1290@gmail.com</strong>
+            <p>Primary inbox · replies within 24h</p>
+          </a>
+          <a class="contact-card" href="tel:+918793289686">
+            <span>Phone</span>
+            <strong>+91 87932 89686</strong>
+            <p>Available 9am – 8pm IST</p>
+          </a>
+          <a class="contact-card" href="https://github.com/poojaparab" target="_blank" rel="noreferrer">
+            <span>GitHub</span>
+            <strong>@Pooja12Parab</strong>
+            <p>Code, experiments, and snippets</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Pooja Parab. Built with care in Hyderabad.</p>
+    </footer>
+  </body>
+</html>
